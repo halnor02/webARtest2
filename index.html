@@ -7,11 +7,11 @@
 <body style='margin : 0px; overflow: hidden;'>
 <a-scene embedded arjs="debugUIEnabled:false;trackingMethod:best;" vr-mode-ui="enabled: false">
     <a-assets>
-        <a-asset-item id="walker-obj" src="model_obj/walker/walker.obj"></a-asset-item>
-        <a-asset-item id="walker-mtl" src="model_obj/walker/walker.mtl"></a-asset-item>
+        <a-asset-item id="SB-obj" src="model_obj/SB/SB.obj"></a-asset-item>
+        <a-asset-item id="SB-mtl" src="model_obj/SB/SB.mtl"></a-asset-item>
     </a-assets>
     <a-marker preset="hiro">
-        <a-obj-model id="walker" src="#walker-obj" mtl="#walker-mtl" position="0 0 0" scale="0.01 0.01 0.01" rotation="0 0 0"></a-obj-model>
+        <a-obj-model id="SB" src="#SB-obj" mtl="#SB-mtl" position="0 0 0" scale="0.01 0.01 0.01" rotation="0 0 0"></a-obj-model>
         <a-text value="I'm walker!!!" position="0 1.3 0" align="center"></a-text>
     </a-marker>
     <a-entity camera></a-entity>
